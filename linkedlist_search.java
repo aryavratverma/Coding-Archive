@@ -43,6 +43,7 @@ public class LinkedList{
             if(ptr.data == search_key){
 
                 return true;
+                ptr=ptr.next;
      
            
             }
